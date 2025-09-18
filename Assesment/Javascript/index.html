@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <h2> Registration Form</h2>
+    <form id="regForm">
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <input type="password" id="password" placeholder="Password">
+      </div>
+      <div class="form-group">
+        <input type="password" id="repassword" placeholder="Re-type Password">
+      </div>
+      <div class="form-group">
+        <input type="text" id="firstname" placeholder="First Name">
+      </div>
+      <div class="form-group">
+        <input type="text" id="lastname" placeholder="Last Name">
+      </div>
+      <div class="form-group">
+        <input type="text" id="mobile" placeholder="Mobile Number">
+      </div>
+      <div class="form-group">
+        <label>
+          <input type="radio" name="gender" value="Male"> Male
+        </label>
+        <label>
+          <input type="radio" name="gender" value="Female"> Female
+        </label>
+      </div>
+      <div class="form-group">
+        <select id="country">
+          <option value="">Select a country</option>
+          <option value="India">India</option>
+          <option value="USA">USA</option>
+          <option value="UK">UK</option>
+        </select>
+      </div>
+      <div class="checkbox-group">
+        <label><input type="checkbox" id="terms"> I agree with terms and conditions</label>
+      </div>
+      <div class="checkbox-group">
+        <label><input type="checkbox" id="newsletter"> I want to receive the newsletter</label>
+      </div>
+      <button type="submit" class="btn">Register</button>
+    </form>
+  </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
